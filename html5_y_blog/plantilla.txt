@@ -1,0 +1,20 @@
+<!IDOCTYPE html>
+<html lang="es-ES"><!-- idioma página -->
+	<head>
+		<title>programación</title>
+		<meta charset="utf-8"><!-- acentos  -->
+		<!--stilo css -->
+		<style>
+			
+		</style>
+	</head>
+	<body>
+	<!--La etiqueta p sirve para declarar parrafos de texto-->
+	<p>
+	</p>
+	
+	<p>
+		
+	</p>
+	</body>
+</html>

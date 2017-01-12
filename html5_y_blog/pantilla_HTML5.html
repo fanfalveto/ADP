@@ -1,0 +1,53 @@
+<!IDOCTYPE html>
+<html lang="es-ES"><!-- idioma página -->
+	<head>
+		<title>Imágenes en HTML</title>
+		<meta charset="utf-8"><!-- acentos  -->
+		<!--stilo css -->
+		<style>
+			.imgbox{width:60%;margin:auto}
+		</style>
+	</head>
+	<body>
+	<!--La etiqueta p sirve para declarar parrafos de texto-->
+	<h1>Insertar imágenes en HTML</h1>
+	
+	<p>
+		<b>Imágen1</b><br>
+		<div align="left">
+		<Img src="imagen/1.jpg" width="25%"  alt="que desastre" onmouseover="this.src='imagen/3.jpg'" ; onmouseout="this.src='imagen/1.jpg';">
+		</div>
+	</p>
+	
+	<p align="center">
+		<b>Imágen2</b><br>
+		<div  class="imgbox">
+		<Img src="imagen/2.jpg" width="100%" alt="que desastre" title="Una caja">
+		</div>
+	</p>
+	
+	<p align="right">
+		<b>Imágen3</b><br>
+		<div id ="demo" align="right"  onmouseover="mouseOver()" onmouseout="mouseOut()">
+		<a href="http://www.google.es" target="_blank">
+		<Img  src="imagen/3.jpg" width="520" alt="que desastre" title=" ir a Google">
+		</a>
+		<!--<a href="http://www.google.es" target="_blank">Ir a Google</a>-->
+		</div>
+	</p>
+	</body>
+	
+	
+	
+	<script>
+function mouseOver() {
+    document.getElementById("demo").style.background = "red";
+}
+
+function mouseOut() {
+    document.getElementById("demo").style.background = "white";
+}
+</script>
+	
+	
+</html>
