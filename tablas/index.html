@@ -1,0 +1,46 @@
+<!IDOCTYPE html>
+<html lang="es-ES"><!-- idioma página -->
+	<head>
+		<title></title>
+		<meta charset="utf-8"><!-- acentos  -->
+		<link rel="stylesheet" href="css/styles.css"><!--llamada a un archivo externo-->
+	</head>
+	<body>
+		<div id="container">
+			<h1 >Declarar tablas en HTML5</h1>
+			<p>Para declarar tables en HTML se utilizan etiquetas como <i>table, tr y td</i> principalmente </p>
+			<!--tabla=tabla,tr=fila, td=columna-->
+			<table>
+				<tr>
+					<td colspan="4">
+						<h2>TABLA NUEVA EN HTML</h2>
+					</td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+					<td id="casilla">4</td>
+				</tr>
+				<tr>
+					<td rowspan="2" id="casilla2">5 y 9</td>
+					<td>6</td>
+					<td>7</td>
+					<td>8</td>
+				</tr>
+				<tr>
+					<!-- <td id="casilla2">9</td> -->
+					<td>10</td>
+					<td>11</td>
+					<td>12</td>
+				</tr>
+				<tr>
+					<td>13</td>
+					<td>14</td>
+					<td id="casilla3">15</td>
+					<td>16</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>

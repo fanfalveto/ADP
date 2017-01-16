@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+body{background-image:url('../imagen/fondo.jpg') ;background-repeat:no-repeat;background-size: 100% 100%;}/*color cuerpo*/
+*{font-family: 'Indie Flower', cursive;font-size: 48px;}/*tipo de letra para todo el documento*/
+h1{font-size:2em;color:#023A0C;margin-top:0px}/*formato h1*/
+h2{font-size:1em;text-align:center;}/*formato h2*/
+p,i{font-family: 'Righteous';font-size:.8em;}/*formato para p>i*/
+table,td{border:1px solid black;border-collapse: collapse;font-size:.6em;background:#3EA5B5;text-align:right;min-width:20%;}/*formato tabla*/
+table h2{background:#17BC35;margin:-1px;}/*color fondo h2 encabezado tabla*/
+td#casilla{background:#214BCB;text-align:center}/*color y centrado casilla*/
+td#casilla2{background:#DB1D1D;text-align:center}/*igual*/
+td#casilla3{background:#F7F70C;text-align:center}/*igual*/
+#container{width:75%;margin:auto;background: rgba(54, 70, 87, 0.8);padding:3%;filter: alpha(opacity=60); }/*formato div contenedor*/
+table{margin:auto}/*centrar tabla*/
