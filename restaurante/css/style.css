@@ -1,0 +1,9 @@
+h1{border:1px solid black;
+	border-collapse: collapse;}
+	body{background:black}
+#wrapper{background:rgba(181, 181, 181,.4)}
+#logo {width:145px;height:126px;}
+#nav{padding:18%;margin-top: -27%;}
+#nav a{color:black}
+#nav li {display:inline;padding:2%;}
+#nav li a:hover{display:inline;color:white}
