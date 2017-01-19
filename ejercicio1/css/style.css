@@ -1,0 +1,29 @@
+#wrapper{width:100%;}
+.cap {height:40px;background:green;}
+.cabecera{margin-left:100px;color:white;margin-top:-8px;width:30%;}
+
+.nav{margin-top:-60px;
+		width: 76%;
+		float:left;
+		text-align: right;
+		margin-left:25%;}
+		
+.nav a{color:black}
+
+
+.nav li {display:inline;
+		padding:2%;
+		 }
+		
+.nav li a{text-decoration:none;padding:2%;}
+			 
+.nav li a:hover{
+				color:black;
+				text-decoration:underline;}
+				
+#container{margin-top:1%;float:left;width:100%}
+	
+				
+.divarriba1{float:left;width:50%;text-align:left;color:black;}
+.divarriba2{float:left;width:25%;text-align:left;color:black;}
+.divarriba3{float:left;width:25%;text-align:left;color:black;}

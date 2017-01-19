@@ -1,20 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Rock+Salt');
 
-*{font-size:32px;/*border:1px solid black;box-sizing:border-box*/;font-family: 'Rock Salt', cursive;}
+*{font-size:32px;/*border:1px solid white;box-sizing:border-box*/;font-family: 'Rock Salt', cursive;}
 
 h1{border:1px solid black;
 	border-collapse: collapse;
 	color:black;
-	font-size:2em;
 	padding:2%;
 	text-align: center;
+
 	}
 h2{color:black;
 	text-align:center;}
 
-p{text-align:left;}
+p{text-align:left;font-size:.5em ;}
 
-body{background:black}
+body{background:black;}
 
 #wrapper{background:rgba(181, 181, 181,.4);
 		height:100%;
@@ -26,7 +26,8 @@ body{background:black}
 #logo {/*background:green;*/
 		width:20%;
 		padding:2%;
-		float:left;}
+		float:left;
+		margin-top:-1em;}
 		
 #nav{/*background:red;*/
 		width: 76%;
@@ -41,7 +42,7 @@ body{background:black}
 		padding:2%;
 		 }
 		
-#nav li a{text-decoration:none;padding:10px;}
+#nav li a{text-decoration:none;padding:2%;}
 			 
 #nav li a:hover{
 				color:black;
@@ -60,9 +61,35 @@ body{background:black}
 		background-color:rgba(126, 118, 118,0.6);
 		color:black;
 		font-style:bold;
-		padding:20px;
-		margin-top:30px;
-		margin-right:30px;
+		padding:1%;
+		margin-top:1%;
+		margin-right:5%;
+		font-size:.5em;
 		}
-		
-#box{float:left;}
+	
+.textbox h2{font-size:1.6em;
+		}
+		.textbox p{font-size:1em;
+		}
+	
+#container{margin-top:1%;float:left;width:100%}
+	
+
+.box{float:left !important;
+    margin-left:.2%;
+		margin-top:1%;
+		text-align:center;
+		background:rgba(181, 181, 181,.4);
+		width:20%;	
+		padding:2.35%;
+		min-height:360px;
+	}
+
+.boxicon i{font-size:4em !important;
+	color:red !important;
+	margin-top:2%;}
+
+.boxheader h2{color:white;
+			}
+
+.boxtext{font-size:.5em;text-align:left;}
