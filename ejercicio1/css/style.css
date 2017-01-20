@@ -1,29 +1,59 @@
-#wrapper{width:100%;}
-.cap {height:40px;background:green;}
-.cabecera{margin-left:100px;color:white;margin-top:-8px;width:30%;}
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 
-.nav{margin-top:-60px;
-		width: 76%;
-		float:left;
-		text-align: right;
-		margin-left:25%;}
-		
-.nav a{color:black}
+*{font-size:16px;/*border:1px solid white;box-sizing:border-box*/;font-family: 'Sans Pro', cursive;}
 
+#wrapper{width:90%;margin:auto;}
+
+h2{color:#555;
+	font-weight:3em;
+	line-height:1.5;
+	margin:0 0 1em 0;}
+
+.nav{background:#6cc091;
+	top:0;
+	height:66px;
+	line-height:44px;
+	position:fixed;
+	color:#fff;
+	cursor:default;
+	width:90%;
+	z-index:10001;
+	text-align:left;
+	}
+.nav p a{width:25%;color:white;margin-top: -10px;margin-left: 50px;text-decoration:none !important;}		
+
+.nav p a:hover{
+				color:green;
+				text-decoration:none;}
+				
+.nav ul{width:60%;float:right;margin-top: -55px !important;text-align:right;}
 
 .nav li {display:inline;
-		padding:2%;
-		 }
+		padding:4%;
 		
+		 }
+.nav a{color:white;}		
 .nav li a{text-decoration:none;padding:2%;}
 			 
 .nav li a:hover{
-				color:black;
-				text-decoration:underline;}
+				color:blue;
+				text-decoration:none;}
 				
-#container{margin-top:1%;float:left;width:100%}
-	
-				
-.divarriba1{float:left;width:50%;text-align:left;color:black;}
-.divarriba2{float:left;width:25%;text-align:left;color:black;}
-.divarriba3{float:left;width:25%;text-align:left;color:black;}
+#titulo{margin-top:1%;float:left;width:100%}
+.cabe{text-align:center;margin-bottom:.4em;}
+
+			
+.divarriba1{float:left;width:40%;text-align:left;color:black;}
+.divarriba2{float:left;width:25%;text-align:left;color:black;margin-left:5%;}
+
+  hr{width:100%;margin:3em 0;clear:both;}
+  
+.sp{color:pink;font-style:bold;font-size:1.5em;}
+  
+ .dosuno{float:left;width:45%;text-align:left;color:black;}
+ .dosdos{float:left;width:45%;text-align:left;color:black;margin-left:10%;}
+ 
+ .divabajouno{float:left;width:25%;text-align:left;color:black;}
+ .divabajodos{float:left;width:25%;text-align:left;color:black;margin-left:12.5%;}
+
+ .footer{color:#6cc091;font-size:2em;text-align:center}
