@@ -11,22 +11,23 @@ h2{color:#555;
 
 .nav{background:#6cc091;
 	top:0;
-	height:66px;
-	line-height:44px;
+	height:66px;	
 	position:fixed;
 	color:#fff;
 	cursor:default;
-	width:90%;
+	width:100%;
 	z-index:10001;
 	text-align:left;
+	left: 0;
 	}
-.nav p a{width:25%;color:white;margin-top: -10px;margin-left: 50px;text-decoration:none !important;}		
+	
+.nav p a{width:25%;color:white;margin-left: 50px;text-decoration:none !important;}		
 
 .nav p a:hover{
 				color:green;
 				text-decoration:none;}
 				
-.nav ul{width:60%;float:right;margin-top: -55px !important;text-align:right;}
+.nav ul{width:60%;float:right;margin-top: -35px !important;text-align:right;}
 
 .nav li {display:inline;
 		padding:4%;
@@ -39,14 +40,15 @@ h2{color:#555;
 				color:blue;
 				text-decoration:none;}
 				
-#titulo{margin-top:1%;float:left;width:100%}
+#titulo{margin-top:5%;float:left;width:100%;}
+#titulo h1{font-size:5em;}
 .cabe{text-align:center;margin-bottom:.4em;}
 
 			
 .divarriba1{float:left;width:40%;text-align:left;color:black;}
 .divarriba2{float:left;width:25%;text-align:left;color:black;margin-left:5%;}
 
-  hr{width:100%;margin:3em 0;clear:both;}
+ hr{width:100%;margin:3em 0;clear:both;}
   
 .sp{color:pink;font-style:bold;font-size:1.5em;}
   
