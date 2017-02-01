@@ -1,0 +1,138 @@
+<!IDOCTYPE html>
+<html lang="es-ES"><!-- idioma página -->
+	<head>
+		<title>Segundo ejercicio DIV</title>
+		<meta charset="utf-8"><!-- acentos  -->
+		<link rel="stylesheet" href="css/style.css"><!--llamada a un archivo externo-->
+		<link rel="stylesheet" href="css/font-awesome.css">
+	</head>
+	<body>
+		<div id="wrapper">
+			<div class="box50">
+			<br>
+				<h1>LISTAS</h1>
+				<br>
+				<div class="box50">
+					<h2>Sin orden</h2>
+					<ul>
+						<li>
+							Set some different list styles: ul.circle {list-style-type: circle;} ul.square {list-style- type: square;}
+						</li>
+						<li>
+							Set some different list styles: ul.circle {list-style-type: circle;} ul.square {list-style- type: square;}
+						</li>
+						<li>
+							Set some different list styles: ul.circle {list-style-type: circle;} ul.square {list-style- type: square;}
+						</li>
+					</ul>
+					<br>
+						<h2>Alternate</h2>
+					<p class="inter">
+					This is a paragraph	<br>										
+					This is a paragraph<br>
+					This is a paragraph</p>
+				</div>
+				<div class="box50">
+					<h2>Ordenada</h2>
+					<ol>
+						<li>
+							Learn how to create a filter list with JavaScript. Filter List. How to use JavaScript to search for items in a list
+						</li>
+						<li>
+							Learn how to create a filter list with JavaScript. Filter List. How to use JavaScript to search for items in a list
+						</li>
+						<li>
+							Learn how to create a filter list with JavaScript. Filter List. How to use JavaScript to search for items in a list
+						</li>
+							<li>
+							Learn how to create a filter list with JavaScript. Filter List. How to use JavaScript to search for items in a list
+						</li>
+						<li>
+							Learn how to create a filter list with JavaScript. Filter List. How to use JavaScript to search for items in a list
+						</li>
+						<li>
+							Learn how to create a filter list with JavaScript. Filter List. How to use JavaScript to search for items in a list
+						</li>
+					</ol>
+					<h2>Iconos</h2>
+					<ul class="enlinea">
+						<i class="fa fa-cloud" ></i>
+						<i class="fa fa-cloud" ></i>
+						<i class="fa fa-cloud"></i>
+						<i class="fa fa-cloud"></i>
+						<i class="fa fa-cloud"></i>
+						<i class="fa fa-cloud"></i>
+					</ul>
+				</div>
+				
+				<div>
+					<h2>Definition</h2>
+					<dl>
+						<dt>Definition and Usage</dt>
+						<dd>The &lt;dl> tag defines a description list.
+						The &lt;dl> tag is used in conjunction with &lt;dt> (defines terms/names) and &lt;dd> (describes each term/name).</dd><br>
+						<dt>Definition and Usage</dt>
+						<dd>The &lt;dl> tag defines a description list.
+                        The &lt;dl> tag is used in conjunction with &lt;dt> (defines terms/names) and &lt;dd> (describes each term/name).</dd>
+					</dl>
+				</div>
+				<div>
+					<h2>Blockquote</h2>
+					 <blockquote class="mencion" >
+						For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally. WWF's unique way of working combines global reach with a foundation in science, involves action at every level from local to global, and ensures the delivery of innovative solutions that meet the needs of both people and nature.
+						</blockquote> 
+				</div>
+				<div>
+					<h2>TABLAS</h2>
+					<h3>Por defecto</h3>
+					<table>
+						<tr>
+							<th>
+							Nombre
+							</th>
+							<th>
+							Descripción
+							</th>						
+							<th>
+							Precio
+							</th>						
+						</tr>
+						<tr>
+						<td>qqqq</td>
+
+						<td>eeeee</td>
+
+						<td>uuuuuu</td>
+						</tr>
+						<tr>
+						<td>pppppp</td>
+
+						<td>llllllll</td>
+
+						<td>bbbbbbb</td>
+						</tr>
+						
+						<tr>
+						<td>222222</td>
+
+						<td>3333333</td>
+
+						<td>444444</td>
+						</tr>
+						
+						<tr class="ultimatabla">
+						<td></td>
+
+						<td></td>
+
+						<td>00000</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="box50">
+				<h2>FIT</h2>
+			</div>
+		</div>
+	</body>
+</html>
